@@ -1,0 +1,47 @@
+/* globl Style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #c36b84;
+}
+
+h2{
+  text-align: center;
+  color: #fff;
+  margin: 30px auto;
+}
+
+button{
+  display: inline-block;
+  padding: 8px 20px;
+  color: #fff;
+  background-color: #f2cac8;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+div#show{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 800;
+  display: none;
+}
